@@ -1,0 +1,750 @@
+<!DOCTYPE html><html style="font-size: 16px;" lang="en"><head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="keywords" content="​COVID-19 vaccination">
+    <meta name="description" content="">
+    <title>Garcia Tur</title>
+    <link rel="stylesheet" href="css/nicepage.css" media="screen">
+<link rel="stylesheet" href="css/nicepage-site.css" media="screen">
+<link rel="stylesheet" href="css/Landing.css" media="screen">
+    <script class="u-script" type="text/javascript" src="js/jquery-3.5.1.min.js" defer=""></script>
+    <script class="u-script" type="text/javascript" src="js/nicepage.js" defer=""></script>
+    <meta name="generator" content="Nicepage 5.21.8, nicepage.com">
+    <meta name="referrer" content="origin">
+    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
+    <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i|Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+    
+    
+    <script type="application/ld+json">{
+		"@context": "http://schema.org",
+		"@type": "Organization",
+		"name": "travelagency2",
+		"logo": "https://assets.nicepagecdn.com/d2cc3eaa/1631659/images/3d1cb46b-c73f-44c9-a49f-f830531c72dd.png"
+}</script>
+    <meta name="theme-color" content="#4bbfd8">
+    <meta property="og:title" content="Landing">
+    <meta property="og:description" content="">
+    <meta property="og:type" content="website">
+
+    <style>
+
+.fixed-buttons {
+      position: fixed;
+      bottom: 10px;
+      right: 10px;
+      display: flex;
+      flex-direction: column;
+    }
+    .fixed-buttons a {
+      margin: 5px;
+      padding: 10px;
+      border-radius: 50%;
+      background-color: #e4c934; /* Cor do botão do WhatsApp */
+      text-align: center;
+      text-decoration: none;
+      color: white;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s;
+    }
+    .fixed-buttons a:hover {
+      transform: scale(1.1);
+    }
+    .instagram {
+      background-color: #E1306C; /* Cor do botão do Instagram */
+    }
+  #beneficios {
+    background: linear-gradient(135deg, #000000, #856b35);
+    padding: 50px;
+    color: white;
+    text-align: center;
+  }
+  .beneficio {
+    margin: 20px 0;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  .beneficio:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  h3 {
+    font-size: 1.5em;
+  }
+  p {
+    font-size: 1.2em;
+  }
+
+      video {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #da981e; /* Cor roxa, ajustável */
+}
+              .fixed-container {
+            top: 20px; /* Distância do topo */
+            right: 20px; /* Distância da direita */
+            width: 1000px; /* Largura fixa do contêiner */
+            height: 1000px; /* Altura fixa do contêiner */
+            background-color: white; /* Cor de fundo */
+            border: 1px solid #ccc; /* Borda opcional */
+            overflow: auto; /* Barra de rolagem para conteúdo maior */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombras para destacar */
+            padding: 10px;
+            box-sizing: border-box; /* Padding dentro das dimensões */
+            z-index: 1000; /* Garante que o contêiner fique sobreposto a outros elementos */
+        }
+
+        /* Imagem dentro do contêiner */
+        .fixed-container img {
+            width: 90%;
+            display: block;
+            max-width: none; /* Imagem com tamanho original */
+        }
+      .imagem-responsiva {
+  width: 200px; /* Tamanho fixo de 200px */
+  height: auto; /* Manter proporção da imagem */
+  display: block;
+  margin: 0 auto 20px; /* Centralizar e adicionar espaçamento abaixo */
+}
+
+@media (max-width: 600px) {
+  .imagem-responsiva {
+    width: 100%; /* Para telas pequenas, a imagem ocupará 100% da largura disponível */
+    max-width: 200px; /* Limita o tamanho máximo a 200px */
+  }
+  .fixed-container {
+    width: 100%;
+  }
+}
+a i {
+  font-size: 40px; /* Tamanho maior dos ícones */
+  margin-right: 15px; /* Espaçamento entre os ícones */
+  color: #25D366; /* Cor padrão do ícone do WhatsApp */
+  transition: color 0.3s ease; /* Efeito de transição */
+}
+.fixed-container img{
+  width: 90%;
+}
+/* Estilo do ícone do Instagram */
+a[title="Instagram"] i {
+  color: #E1306C; /* Cor padrão do ícone do Instagram */
+}
+
+/* Estilo ao passar o mouse sobre o ícone */
+a:hover i {
+  color: #0077b5; /* Cor ao passar o mouse */
+}
+        .u-repeater-item img {
+    width: 100%; /* Faz com que todas as imagens tenham o mesmo tamanho da div pai */
+    height: auto; /* Ajusta a altura proporcionalmente */
+    object-fit: cover; /* Garante que a imagem preencha o espaço */
+  }
+
+  .u-repeater-item {
+    width: 100%; /* Ou um valor fixo, se preferir */
+    height: 350px; /* Defina uma altura fixa para garantir a uniformidade */
+  }
+     .social-links {
+      display: flex;
+      justify-content: center; /* Centraliza horizontalmente */
+      align-items: center;     /* Centraliza verticalmente */
+      margin-top: 10%;
+      gap: 30px;               /* Espaço entre os ícones */
+    }
+    
+    .social-links a {
+      font-size: 40px;
+      color: #000; /* Cor dos ícones */
+      text-decoration: none;
+    }
+
+    .social-links a:hover {
+      color: #007BFF; /* Cor de hover */
+    }
+
+    .u-section-8 {
+      padding: 20px;
+      text-align: center;
+    }
+
+    .u-group-1 h2 {
+      margin-bottom: 20px;
+    }
+
+    .u-image-9 {
+      display: block;
+      margin: 0 auto;
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+    .u-image:hover {
+      transform: scale(1.1); /* Aumenta a imagem ao passar o mouse */
+      transition: transform 1s ease; /* Transição mais lenta (1 segundo) */
+
+    }
+
+      .whatsapp-button {
+          position: fixed;
+          bottom: px; /* Distância aumentada do fundo */
+          right: 0px; /* Distância da direita */ 
+          z-index: 1000; /* Para garantir que fique sobre outros elementos */
+      }
+
+      .whatsapp-button img {
+          width: 100px; /* Ajuste o tamanho do ícone */
+          height: auto; /* Mantém a proporção */
+      }
+      .pdf-container {
+    width: 75%;
+    height: 800px;
+    align-items: center;
+  }
+
+  /* Ajusta a altura em telas menores */
+  @media (max-width: 768px) {
+    .scrollbox {
+      height: 400px;
+      width: 80%;
+
+    }
+    .ima{
+      height: 300px;
+      width: 80px;
+    }
+    .ima2{
+      height: 375px;
+      width: 80%;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .scrollbox img {
+      height: 300px;
+      width: 100%;
+    }
+  }
+  .scrollbox img {
+            width: 80%; /* A largura da caixa será 100% do espaço disponível */
+            max-width: 600px; /* Defina o máximo da largura conforme necessário */
+            height: 500px; /* Altura fixa de 500px */
+            overflow: auto; /* Habilita rolagem quando a imagem for maior */
+            border: 1px solid #ccc; /* Borda opcional */
+            padding: 10px;
+            box-sizing: border-box;
+        }
+
+        /* Imagem dentro da caixa */
+        .scrollbox img {
+            width: 100%; /* A imagem vai ocupar 100% da largura da caixa */
+            height: auto; /* Preserva a proporção da imagem */
+        }
+        .timeline {
+            width: 80%;
+            margin: 20px auto;
+            position: relative;
+        }
+        .timeline-event {
+            margin: 20px 0;
+            display: flex;
+            align-items: center;
+            font-size: 18px;
+            line-height: 1.5;
+        }
+        .timeline-event .time {
+            font-weight: bold;
+            color: teal;
+            margin-right: 10px;
+        }
+        .timeline-event .icon {
+            width: 30px;
+            height: 30px;
+            background-color: teal;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            margin-right: 20px;
+        }
+        .timeline-event .text {
+            flex: 1;
+        }
+        .dashed-line {
+            border-left: 2px dashed black;
+            height: 40px;
+            margin-left: 18px;
+        }
+        @media (max-width: 768px) {
+            .timeline {
+                width: 95%;
+            }
+            .timeline-event {
+                font-size: 16px;
+            }
+        }
+        .container {
+            max-width: 900px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        h2 {
+            font-size: 28px;
+            margin-bottom: 30px;
+            color: #0077b6;
+        }
+        .item-container {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 30px;
+        }
+        .item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 30%;
+        }
+        .item img {
+            width: 150px;
+            height: 150px;
+            margin-bottom: 15px;
+            border-radius: 15%;
+        }
+        .item h3 {
+            font-size: 18px;
+            color: #0077b6;
+            font-weight: bold;
+        }
+        .highlight {
+            background-color: #0077b6;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 50px;
+            font-size: 18px;
+            margin-bottom: 15px;
+        }
+        .image-container {
+            margin-top: 40px;
+        }
+        .image-container img {
+            max-width: 100%;
+            border-radius: 15px;
+        }
+        @media (max-width: 768px) {
+            .item-container {
+                flex-direction: column;
+                align-items: center;
+            }
+            .item {
+                width: 80%;
+                margin-bottom: 20px;
+            }
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .header, .footer {
+            text-align: center;
+            background-color: #ffcc00;
+            padding: 10px 0;
+        }
+        .header h1, .footer h1 {
+            margin: 0;
+        }
+        .services {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin: 20px 0;
+        }
+        .service {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            margin: 10px;
+            padding: 20px;
+            flex: 1 1 300px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .service img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+        .service h2 {
+            margin: 10px 0;
+        }
+        .cta {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .cta button {
+            background-color: #ffcc00;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 8px;
+        }
+        .cta button:hover {
+            background-color: #ff9900;
+        }
+        @media (max-width: 768px) {
+            .services {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+        .social-buttons {
+  position: fixed;
+  bottom: 20px; /* Distância do fundo da tela */
+  right: 20px; /* Distância do lado direito da tela */
+  display: flex;
+  flex-direction: column; /* Alinha os botões verticalmente */
+  gap: 10px; /* Espaço entre os botões */
+}
+
+.social-button {
+  width: 50px; /* Ajuste o tamanho do botão */
+  height: 50px; /* Ajuste o tamanho do botão */
+  border-radius: 50%; /* Botões redondos */
+  background-color: white; /* Cor de fundo dos botões */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra dos botões */
+  transition: background-color 0.3s; /* Transição suave para a cor de fundo */
+}
+
+.social-button:hover {
+  background-color: #f0f0f0; /* Cor ao passar o mouse */
+}
+
+.social-button img {
+  width: 70%; /* Ajuste o tamanho do ícone */
+  height: auto; /* Mantém a proporção do ícone */
+}
+@media (max-width: 768px) {
+  .social-buttons {
+    bottom: 15px; /* Distância reduzida para telas menores */
+    right: 15px; /* Distância reduzida para telas menores */
+  }
+  
+  .social-button {
+    width: 45px; /* Tamanho menor para telas menores */
+    height: 45px; /* Tamanho menor para telas menores */
+  }
+}
+
+@media (max-width: 480px) {
+  .social-buttons {
+    bottom: 10px; /* Distância ainda menor */
+    right: 10px; /* Distância ainda menor */
+  }
+  
+  .social-button {
+    width: 40px; /* Tamanho ainda menor para telas menores */
+    height: 40px; /* Tamanho ainda menor para telas menores */
+  }
+} .footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: left;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  flex: 1;
+  margin: 10px;
+}
+
+.footer-section h2 {
+  margin-bottom: 10px;
+  color: #ffcc00; /* Cor de destaque */
+}
+
+.footer-section p, 
+.footer-section ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.footer-section ul li {
+  margin: 5px 0;
+}
+
+.footer-section a {
+  color: linear-gradient(135deg, #000000, #856b35);
+  text-decoration: none;
+}
+
+.footer-section a:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #222;
+  margin-top: 20px;
+}
+    </style>
+</head>
+  <body data-path-to-root="/" data-include-products="false" class="u-body u-xl-mode" data-lang="en"><header class="u-clearfix u-header u-sticky u-header" id="sec-be42"><div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+        <a href="#" class="u-image u-logo u-image-1">
+          <h3 style="color: rgb(76, 80, 84);">🅹🆃 🆅🅸🅰🅹🅴 🅵🅰🅲🅸🅻</h3>
+                </a>
+        <nav class="u-menu u-menu-hamburger u-offcanvas u-menu-1" data-responsive-from="XL">
+          <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0px; font-weight: 700;">
+            <a class="u-button-style u-custom-border u-custom-border-color u-custom-borders u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-text-color u-custom-top-bottom-menu-spacing u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="#">
+              <svg class="u-svg-link" viewBox="0 0 24 24"><use href="#menu-hamburger"></use></svg>
+              <svg class="u-svg-content" version="1.1" id="menu-hamburger" viewBox="0 0 16 16" x="0px" y="0px" xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"><g><rect y="1" width="16" height="2"></rect><rect y="7" width="16" height="2"></rect><rect y="13" width="16" height="2"></rect>
+</g></svg>
+            </a>
+          </div>
+          <div class="u-custom-menu u-nav-container">
+            <ul class="u-nav u-spacing-20 u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-grey-90 u-text-hover-palette-2-base" href="/Home.html" style="padding: 10px;">Home</a>
+</li></ul>
+          </div>
+          <div class="u-custom-menu u-nav-container-collapse">
+            <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
+              <div class="u-inner-container-layout u-sidenav-overflow">
+                <div class="u-menu-close"></div>
+                <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="#sec-28a0">Inicio</a>
+                  <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="#sec-9ae1">Serviços</a>
+                    <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="#contato">Contato</a>
+
+
+</li></ul>
+
+              </div>
+            </div>
+            <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
+          </div>
+        </nav>
+      </div><style class="u-sticky-style" data-style-id="5d9f">.u-sticky-fixed.u-sticky-5d9f, .u-body.u-sticky-fixed .u-sticky-5d9f {
+box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4) !important
+}.u-sticky-fixed.u-sticky-5d9f:before, .u-body.u-sticky-fixed .u-sticky-5d9f:before {
+borders: top right bottom left !important; border-color: #404040 !important; border-width: 2px !important
+}</style></header> 
+
+    <section class="u-clearfix u-grey-5 u-section-1" id="sec-28a0">
+      <div class="u-expanded-width u-palette-1-base u-shape u-shape-rectangle u-shape-1" data-animation-name="customAnimationIn" data-animation-duration="1500" data-animation-delay="250" style="background-color: #000000;"></div>
+      <img src="images/logo.jpg" alt="" class="u-image u-image-round u-radius-50 u-image-1" data-image-width="1300" data-image-height="867" data-animation-name="customAnimationIn" data-animation-duration="1750" data-animation-delay="500">
+      <div class="u-align-left u-container-align-left u-container-style u-group u-radius-50 u-shape-round u-white u-group-1" data-animation-name="customAnimationIn" data-animation-duration="1500" data-animation-delay="500">
+        <div class="u-container-layout u-valign-middle u-container-layout-1">
+          <h5 class="u-align-left u-text u-text-default u-text-1"><a href="https://www.instagram.com/garciatur_" target="_blank">@jt_viajefacil</a> <br> <a href="https://api.whatsapp.com/send?phone=559885543656" target="_blank"></a>(71)9 9373-1294<br>
+          </h5>
+          <h1 class="u-align-left u-text u-text-palette-2-base u-text-2" style="background-color: #000000; border-radius: 10%;"> Pensando em Viajar???</h1>
+          </p>
+          <a href="https://api.whatsapp.com/send?phone=557193731294" target="_blank" class="u-active-palette-2-base u-align-left u-border-none u-btn u-btn-round u-button-style u-hover-palette-2-base u-palette-1-base u-radius-50 u-text-active-white u-text-body-alt-color u-text-hover-white u-btn-2" style="background-color: black; color: white;">Saber Mais</a>
+        </div>
+      </div>
+    </section>
+    <section class="u-align-center u-clearfix u-container-align-center u-grey-5 u-section-2" id="sec-9ae1">
+      <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+        <h2 class="u-align-center u-text u-text-1" data-animation-name="customAnimationIn" data-animation-duration="1750" data-animation-delay="250"> Compre sua passagem com desconto!<br></h2>
+        <p class="u-align-center u-text u-text-2" data-animation-name="customAnimationIn" data-animation-duration="1250" data-animation-delay="250"> Aproveite o melhor e com dinheiro no bolso.</p>
+
+        <div class="u-expanded-width u-list u-list-1">
+          <div class="u-repeater u-repeater-1">
+            <div class="u-align-center u-container-style u-image u-image-round u-list-item u-radius-50 u-repeater-item u-shading u-shape-round u-image-1" style="background-image: url('images/imagem1.jpeg');">
+              <div class="u-container-layout u-similar-container u-valign-bottom u-container-layout-3">
+                <div class="u-bottom-left-radius-50 u-bottom-right-radius-50 u-container-align-center u-container-style u-expanded-width u-gradient u-group u-shape-round u-group-2">
+                  <div class="u-container-layout u-valign-middle u-container-layout-4">
+                    <h4 class="u-align-center u-custom-font u-font-montserrat u-text u-text-body-alt-color u-text-4"></h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="u-align-center u-container-style u-image u-image-round u-list-item u-radius-50 u-repeater-item u-shading u-shape-round u-image-2" style="background-image: url('images/imagem2.jpeg');">
+              <div class="u-container-layout u-similar-container u-valign-bottom u-container-layout-0">
+                <div class="u-bottom-left-radius-50 u-bottom-right-radius-50 u-container-style u-expanded-width u-gradient u-group u-shape-round u-group-2">
+                  <div class="u-container-layout u-valign-middle u-container-layout-4">
+                    <h4 class="u-align-center u-custom-font u-font-montserrat u-text u-text-body-alt-color u-text-5"></h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="u-align-center u-container-style u-image u-image-round u-list-item u-radius-50 u-repeater-item u-shading u-shape-round u-image-3" style="background-image: url('images/imagem3.jpeg');">
+              <div class="u-container-layout u-similar-container u-valign-bottom u-container-layout-5">
+                <div class="u-bottom-left-radius-50 u-bottom-right-radius-50 u-container-align-center u-container-style u-expanded-width u-gradient u-group u-shape-round u-group-3">
+                  <div class="u-container-layout u-valign-middle u-container-layout-6">
+                    <h4 class="u-align-center u-custom-font u-font-montserrat u-text u-text-body-alt-color u-text-5"></h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="u-align-center u-container-style u-image u-image-round u-list-item u-radius-50 u-repeater-item u-shading u-shape-round u-image-4" style="background-image: url('images/imagem4.jpeg');">
+              <div class="u-container-layout u-similar-container u-valign-bottom u-container-layout-7">
+                <div class="u-bottom-left-radius-50 u-bottom-right-radius-50 u-container-align-center u-container-style u-expanded-width u-gradient u-group u-shape-round u-group-4">
+                  <div class="u-container-layout u-valign-middle u-container-layout-8">
+                    <h4 class="u-align-center u-custom-font u-font-montserrat u-text u-text-body-alt-color u-text-6"></h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="u-align-center u-container-style u-image u-image-round u-list-item u-radius-50 u-repeater-item u-shading u-shape-round u-image-5" style="background-image: url('images/imagem5.jpeg');">
+              <div class="u-container-layout u-similar-container u-valign-bottom u-container-layout-9">
+                <div class="u-bottom-left-radius-50 u-bottom-right-radius-50 u-container-align-center u-container-style u-expanded-width u-gradient u-group u-shape-round u-group-5">
+                  <div class="u-container-layout u-valign-middle u-container-layout-10">
+                    <h4 class="u-align-center u-custom-font u-font-montserrat u-text u-text-body-alt-color u-text-7"></h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="u-align-center u-container-style u-image u-image-round u-list-item u-radius-50 u-repeater-item u-shading u-shape-round u-image-6" style="background-image: url('images/imagem6.jpeg');">
+              <div class="u-container-layout u-similar-container u-valign-bottom u-container-layout-11">
+                <div class="u-bottom-left-radius-50 u-bottom-right-radius-50 u-container-align-center u-container-style u-expanded-width u-gradient u-group u-shape-round u-group-6">
+                  <div class="u-container-layout u-valign-middle u-container-layout-12">
+                    <h4 class="u-align-center u-custom-font u-font-montserrat u-text u-text-body-alt-color u-text-8"></h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="u-align-center u-container-style u-image u-image-round u-list-item u-radius-50 u-repeater-item u-shading u-shape-round u-image-7" style="background-image: url('images/imagem7.jpeg');">
+              <div class="u-container-layout u-similar-container u-valign-bottom u-container-layout-13">
+                <div class="u-bottom-left-radius-50 u-bottom-right-radius-50 u-container-align-center u-container-style u-expanded-width u-gradient u-group u-shape-round u-group-7">
+                  <div class="u-container-layout u-valign-middle u-container-layout-14">
+                    <h4 class="u-align-center u-custom-font u-font-montserrat u-text u-text-body-alt-color u-text-9"></h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="u-align-center u-container-style u-image u-image-round u-list-item u-radius-50 u-repeater-item u-shading u-shape-round u-image-8" style="background-image: url('images/imagem8.jpeg');">
+              <div class="u-container-layout u-similar-container u-valign-bottom u-container-layout-15">
+                <div class="u-bottom-left-radius-50 u-bottom-right-radius-50 u-container-align-center u-container-style u-expanded-width u-gradient u-group u-shape-round u-group-8">
+                  <div class="u-container-layout u-valign-middle u-container-layout-16">
+                    <h4 class="u-align-center u-custom-font u-font-montserrat u-text u-text-body-alt-color u-text-10"></h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            
+            </div>
+          </div>
+        </div>
+        </p>
+      </div>
+    </section>
+    <div class="container my-5 text-center">
+      <h2 class="mb-4">Chega mais!!</h2>
+      
+      <!-- Botão de Play para iniciar a galeria de vídeos -->  
+      <div class="video-container"></div>
+      <video id="meuVideo" width="320" height="400" controls>
+        <source src="images/video2.mp4" type="video/mp4">
+        Seu navegador não suporta o vídeo.
+      </video>
+      </div>
+  
+      <!-- Botões de navegação -->
+
+    </div>
+    <section id="beneficios">
+      <h2>Por Que Escolher Nossos Serviços Aéreos?</h2>
+      <div class="beneficio">
+        <h3>Economia Garantida</h3>
+        <p>Com nossas tarifas competitivas e promoções exclusivas, você sempre terá o melhor preço para suas passagens aéreas.</p>
+      </div>
+      <div class="beneficio">
+        <h3>Organização e Planejamento</h3>
+        <p>Planeje suas viagens com antecedência e desfrute de uma experiência sem complicações, poupando tempo e dinheiro.</p>
+      </div>
+      <div class="beneficio">
+        <h3>Serviço de Atendimento ao Cliente Excepcional</h3>
+        <p>Estamos disponíveis 24/7 para ajudar com qualquer dúvida ou necessidade que você tenha.</p>
+      </div>
+      <div class="beneficio">
+        <h3>Flexibilidade de Pagamento</h3>
+        <p>Oferecemos diversas opções de pagamento para sua conveniência, incluindo parcelamento sem juros.</p>
+      </div>
+    </section>
+    <div class="fixed-buttons">
+      <a href="https://wa.me/557193731294" target="_blank" title="WhatsApp">
+        <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp" width="30" height="30">
+      </a>
+      <a href="https://www.instagram.com/jt_viajefacil" target="_blank" title="Instagram" class="instagram">
+        <img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="Instagram" width="30" height="30">
+      </a>
+    </div>
+    
+
+
+<footer class="footer" id="contato"></footer>
+  <div class="footer-content">
+    <div class="footer-section about">
+      <h2>Sobre Nós</h2>
+      <p>Somos dedicados a oferecer as melhores tarifas e serviços aéreos para nossos clientes. Seu conforto e economia são nossa prioridade.</p>
+    </div>
+    <div class="footer-section links">
+      <h2>Links Úteis</h2>
+      <ul>
+        <li><a href="#" style="color: #000;">Home</a></li>
+        <li><a href="#" style="color: #000;">Contato</a></li>
+      </ul>
+    </div>
+    <div class="footer-section contact">
+      <h2>Contato</h2>
+      <p>Email: franciscotjunior_23@hotmail.com</p>
+      <p>Telefone: (71) 9373-1294</p>
+    </div>
+    <div class="footer-section social">
+      <h2>Redes Sociais</h2>
+      <div class="social-links">
+        <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/jt_viajefacil/?next=%2Fjt_viajefacil%2Fprofilecard%2F" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://api.whatsapp.com/send?phone=557193731294" target="_blank"><i class="fab fa-whatsapp"></i></a>
+
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom" style="color: #ccc;">
+    &copy; 2024 Agência de Viangens. Todos os direitos reservados.
+  </div>
+</footer>
+<script src="js/api.js" async=""></script>
+
+
+
+<script>
+  // Função para verificar se o vídeo está visível na viewport
+  function isInViewport(element) {
+    const rect = element.getBoundingClientRect();
+    return rect.top >= 0 && rect.left >= 0 && rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) && rect.right <= (window.innerWidth || document.documentElement.clientWidth);
+  }
+
+  document.addEventListener('scroll', function() {
+    const video = document.getElementById('meuVideo');
+    if (isInViewport(video)) {
+      video.play();
+    } else {
+      video.pause();
+    }
+  });
+</script>
+
+</body>
+
+</html>
